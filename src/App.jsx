@@ -121,6 +121,9 @@ export default function App() {
         </ul>
       </section>
 
+      
+
+      {/* Footer */}
       <section id="send-mail" className="section transparent-section">
   <h2>Send Me a Mail</h2>
   <p>Fill out the form below and I'll get back to you!</p>
@@ -165,10 +168,6 @@ export default function App() {
     </button>
   </form>
 </section>
-
-
-
-      {/* Footer */}
       {/* Wave Separator (Inverted) */}
         <svg
           className="wave inverted-wave"
