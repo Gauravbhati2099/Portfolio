@@ -15,7 +15,7 @@ export default function App() {
     { title: "Sentiment Analysis Platform", img: "/projects/sentiment.jpg", desc: "Full-stack web app analyzing YouTube comments with ML pipeline.", link: "https://github.com/Gauravbhati2099/Sentiant.git" },
     { title: "Diabetes Prediction Model", img: "/projects/diabetes.jpg", desc: "Logistic regression with real-time Streamlit predictions.", link: "https://github.com/Gauravbhati2099/IBM-skillbuild.git" },
     { title: "Anomaly Detection System", img: "/projects/anomaly.jpg", desc: "Power consumption anomaly detection using ML techniques.", link: "https://github.com/Gauravbhati2099/Anomly-detection.git" },
-    { title: "Product Store (E-commerce)", img: "/projects/store.jpg", desc: "MERN stack store with analytics & Google Authentication.", link: "https://github.com/Gauravbhati2099/ProductStore.git" },
+    { title: "Product Store (E-commerce)", img: "/projects/MainPage.jpg", desc: "MERN stack store with analytics & Google Authentication.", link: "https://github.com/Gauravbhati2099/ProductStore.git" },
   ];
 
   const certificates = [
@@ -36,10 +36,10 @@ export default function App() {
 
       {/* Navbar */}
       <nav className="navbar">
-        <div className="logo"><a href="#">Gaurav Singh Bhati</a></div>
+        <div className="logo"><a href="">Gaurav Singh Bhati</a></div>
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>☰</div>
         <div className={`nav-links ${menuOpen ? "show" : ""}`}>
-          <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#certificates" onClick={() => setMenuOpen(false)}>Certificates</a>
           <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
