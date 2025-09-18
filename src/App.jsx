@@ -124,7 +124,7 @@ export default function App() {
       
 
       {/* Footer */}
-      <section id="send-mail" className="section transparent-section">
+      <section id="send-mail contact" className="section transparent-section">
   <h2>Send Me a Mail</h2>
   <p>Fill out the form below and I'll get back to you!</p>
 
@@ -181,7 +181,7 @@ export default function App() {
           ></path>
         </svg>
 
-      <footer id="contact">
+      <footer>
         <h2>Contact</h2>
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/gauravbhati2099"><Linkedin /></a>
